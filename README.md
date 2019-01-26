@@ -1,6 +1,6 @@
 # Dotfiles
 
-This repo contains dotfiles for my personal zsh and tmux environments. It includes setup scripts to install dependencies from scratch or update the local dotfiles.
+This repo contains dotfiles for my personal development environments. It includes setup scripts to install dependencies from scratch or update the local dotfiles.
 
 Installed packages:
   * [tmux](https://github.com/tmux/tmux)
@@ -13,7 +13,7 @@ Installed tmux plugins
   * [tmux-ressurect](https://github.com/tmux-plugins/tmux-resurrect)
   * [tmux-themepack](https://github.com/jimeh/tmux-themepack)
 
-The applied tmux theme is a custom variation of the 'ys' theme which shortens the descriptor line.
+The applied tmux theme is a custom variation of the 'ys' theme with a shortened descriptor line.
 
 The applied powerline theme is Double Blue.
 
