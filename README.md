@@ -17,6 +17,8 @@ The applied tmux theme is a custom variation of the 'ys' theme with a shortened 
 
 The applied powerline theme is Double Blue.
 
+To add the powerline plugin to tmux, edit .tmux.conf line 44 with the path to your own powerline installation which can be found with ```pip show powerline-status```.
+
 To apply changes to you current environment, run the ```update-env.sh``` script.
 
 To setup a new environment, run the ```make-new-env.sh``` script.
