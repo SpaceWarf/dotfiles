@@ -1,11 +1,11 @@
 # Dotfiles
 
-This repo contains dotfiles for my personal development environments. It includes setup scripts to install dependencies from scratch or update the local dotfiles.
+This repo contains dotfiles for my personal development environments. It includes setup scripts to install dependencies from scratch or update the local dotfiles. The powerline font should be installed on the computer for powerline to work properly.
 
 Installed packages:
   * [tmux](https://github.com/tmux/tmux)
   * [zsh and oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
-  * [powerline and powerline font](https://github.com/powerline/powerline)
+  * [powerline](https://github.com/powerline/powerline)
 
 Installed tmux plugins
   * [tmux-plugin-manager](https://github.com/tmux-plugins/tpm)
