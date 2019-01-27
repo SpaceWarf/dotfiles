@@ -11,11 +11,3 @@ cp -r .zsh_custom/ ~
 mkdir -p ~/.tmux/plugins
 
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-
-pip install --user powerline-status
-wget https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf
-wget https://github.com/powerline/powerline/raw/develop/font/10-powerline-symbols.conf
-mv PowerlineSymbols.otf ~/.local/share/fonts/
-fc-cache -vf ~/.local/share/fonts/
-mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
-
