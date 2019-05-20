@@ -7,6 +7,9 @@ Installed packages:
   * [zsh and oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
   * [powerline](https://github.com/powerline/powerline)
 
+Installed zsh plugins
+  * [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+
 Installed tmux plugins
   * [tmux-plugin-manager](https://github.com/tmux-plugins/tpm)
   * [tmux-sensible](https://github.com/tmux-plugins/tmux-sensible)
