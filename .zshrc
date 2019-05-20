@@ -13,13 +13,14 @@
   HIST_STAMPS="dd/mm/yyyy"
 
 # Path to custom options folder
-  ZSH_CUSTOM=~/.zsh_custom/
+#  ZSH_CUSTOM=~/.zsh_custom/
 
 # Plugins to be loaded on shell startup
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
   plugins=(
     git
+    zsh-autosuggestions
   )
 
 # Custom aliases
@@ -31,6 +32,8 @@
   alias 'dcrm'='docker rm $(docker ps -aq)'
   alias 'dsp'='docker system prune'
   alias 'dps'='docker ps'
+  alias 'initgo'='export GOPATH=$HOME/go && export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin'
+  alias 'psmouse'='sudo modprobe -r psmouse && sudo modprobe psmouse'
 
 # Set oh-my-zsh source
   source $ZSH/oh-my-zsh.sh
