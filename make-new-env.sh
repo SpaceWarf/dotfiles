@@ -7,7 +7,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/p
 
 cp .zshrc ~
 cp .tmux.conf ~
-cp ys.zsh_theme ~/.oh-my-zsh/custom/themes
+cp ys.zsh-theme ~/.oh-my-zsh/custom/themes
 
 mkdir -p ~/.tmux/plugins
 
