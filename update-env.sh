@@ -1,3 +1,3 @@
 cp .zshrc ~
 cp .tmux.conf ~
-cp -r .zsh_custom/ ~
+cp bureau-custom.zsh-theme ~/.oh-my-zsh/custom/themes
